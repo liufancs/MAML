@@ -6,6 +6,9 @@ Fan Liu, Zhiyong Cheng*, Changchang, Yinglong Wang, Liqiang Nie*, Mohan Kankanha
 
 **Please cite our ACMMM'19 paper if you use our codes. Thanks!**
 
+## Environment Settings
+-Tensorflow-gpu version: 1.3.0
+
 ## Example to run the codes.
 
 Run MAML.py
