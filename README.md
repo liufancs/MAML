@@ -14,6 +14,20 @@ python MAML.py --dataset Office --num_neg 4 --eva_batches 400 --batch_size 5000 
 ```
 
 ### Dataset
+We provide four processed datasets: Amazon-Office, Amazon-MenClothing, Amazon-WomenClothing, Amazon-Toys&Games.
+train_csv:
+- Train file
 
+test_csv:
+- Test file
+
+asin_sample.json:
+- Negative instances of items
+
+imge_feature.npy:
+- Image features
+
+doc2vecFile:
+- Text features 
 
 Last Update Date: AUG 16, 2019
