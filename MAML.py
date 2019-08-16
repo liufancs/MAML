@@ -6,6 +6,7 @@ from tqdm import tqdm
 from evaluator import RecallEvaluator
 from sampler import WarpSampler
 import Dataset
+import pandas as pd
 from tensorflow.contrib.layers.python.layers import regularizers
 import os
 import gc
@@ -321,7 +322,6 @@ class MAML(object):
         top_n = tf.nn.top_k(scores, 10 + self.max_train_count,name='top_n')
         return top_n
 
-import pandas as pd
 def load_rating_file_as_list(filename):
     ratingList = []
     with open(filename, "r") as f:
