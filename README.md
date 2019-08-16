@@ -7,7 +7,7 @@ Fan Liu, Zhiyong Cheng*, Changchang, Yinglong Wang, Liqiang Nie*, Mohan Kankanha
 **Please cite our ACMMM'19 paper if you use our codes. Thanks!**
 
 ## Environment Settings
--Tensorflow-gpu version: 1.3.0
+- Tensorflow-gpu version:  1.3.0
 
 ## Example to run the codes.
 
@@ -34,7 +34,7 @@ doc2vecFile:
 - Text features.
 
 All of the above files could be downloaded from :
-- Link: https://pan.baidu.com/s/1-95zBrQxx-pSmTV-MS5cBQ  
-- Extract code: appe 
+- Link:  https://pan.baidu.com/s/1-95zBrQxx-pSmTV-MS5cBQ  
+- Extract code:  appe 
 
 Last Update Date: AUG 16, 2019
