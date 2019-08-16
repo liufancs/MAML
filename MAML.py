@@ -362,8 +362,7 @@ def optimize(model, sampler, train, test, args):
         losses = []
         feature_losses = []
         # run n mini-batches
-        #for _ in tqdm(range(EVALUATION_EVERY_N_BATCHES), desc="Optimizing..."):
-        for _ in range(args.eva_batches):
+        for _ in tqdm(range(args.eva_batches), desc="Optimizing..."):
 	    user_pos, neg = sampler.next_batch()
             _, loss ,feature_loss = sess.run((model.optimize, model.loss ,model.feature_loss),
                                {model.user_positive_items_pairs: user_pos,
