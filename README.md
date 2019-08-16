@@ -9,10 +9,11 @@ Fan Liu, Zhiyong Cheng*, Changchang, Yinglong Wang, Liqiang Nie*, Mohan Kankanha
 ## Example to run the codes.
 
 Run MAML.py
-'''
+```
 python MAML.py --dataset Office --num_neg 4 --eva_batches 400 --batch_size 5000 --hidden_layer_dim 256 --margin 1.6 --dropout 0.2 --feature_l2_reg 5.0
-'''
+```
+
 ### Dataset
 
 
-Last Update Date: AUG 1, 2019
+Last Update Date: AUG 16, 2019
