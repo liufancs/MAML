@@ -319,8 +319,8 @@ class MAML(object):
         scores = -tf.reduce_sum(
             tf.squared_difference(tf.multiply(attention_reshape, user), tf.multiply(attention_reshape, item)), 2,
             name="scores")
-        top_n = tf.nn.top_k(scores, 10 + self.max_train_count,name='top_n')
-        return top_n
+        #top_n = tf.nn.top_k(scores, 10 + self.max_train_count,name='top_n')
+        return scores
 
 def load_rating_file_as_list(filename):
     ratingList = []
