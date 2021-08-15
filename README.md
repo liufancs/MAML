@@ -35,7 +35,6 @@ doc2vecFile:
 - Text features.
 
 All of the above files could be downloaded from :
-- Link:  https://pan.baidu.com/s/1-95zBrQxx-pSmTV-MS5cBQ  
-- Extract code:  appe 
+- Google Drive [Link](https://drive.google.com/drive/folders/1OuBAC-O9oK5JBgVTUqmSlAsWQ7OPtirr)
 
 Last Update Date: AUG 16, 2019
