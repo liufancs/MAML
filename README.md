@@ -37,4 +37,4 @@ doc2vecFile:
 All of the above files could be downloaded from :
 - Google Drive [Link](https://drive.google.com/drive/folders/1OuBAC-O9oK5JBgVTUqmSlAsWQ7OPtirr)
 
-Last Update Date: AUG 16, 2019
+Last Update Date: AUG 15, 2021
